@@ -1,4 +1,6 @@
-##Test 8
 steps:
-- name: 'ubuntu'
-  args: ['echo', 'hello world, after 600s']
+- name: 'bash'
+  args: ['echo', 'Hello world!']
+serviceAccount: 'projects/jamiesonp-cloud-build-390318/serviceAccounts/cloudbuild-sa@jamiesonp-cloud-build-390318.iam.gserviceaccount.com'
+options:
+  logging: CLOUD_LOGGING_ONLY
