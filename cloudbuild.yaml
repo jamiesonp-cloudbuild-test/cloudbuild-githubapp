@@ -1,4 +1,4 @@
-## PR 1 Test
+## PR Test trigger
 steps:
 - name: 'bash'
   args: ['echo', 'Hello world!']
