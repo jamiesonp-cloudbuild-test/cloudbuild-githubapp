@@ -30,4 +30,3 @@ COPY --chown=app:app . $APP_HOME
 
 # Change to the app user.
 USER app
-##Test1
