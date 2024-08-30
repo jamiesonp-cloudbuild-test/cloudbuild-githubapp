@@ -1,4 +1,4 @@
-FROM alpine
+FROM ubuntu:18.04
 # By default, Docker containers run as the root user. This is bad because:
 #   1) You're more likely to modify up settings that you shouldn't be
 #   2) If an attacker gets access to your container - well, that's bad if they're root.
